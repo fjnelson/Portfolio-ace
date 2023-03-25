@@ -1,8 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
-import PortfolioMain from './components/PortfolioMain';
+import PortfolioContainer from "./components/PortfolioContainer";
+
 function App() {
-  return <PortfolioMain />;
+  return (
+    <div>
+      <PortfolioContainer />
+    </div>
+  );
 }
 
 export default App;
