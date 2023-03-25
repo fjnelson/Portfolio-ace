@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-ace/static/css/main.0aed25c5.css",
-    "main.js": "/Portfolio-ace/static/js/main.32398240.js",
+    "main.css": "/Portfolio-ace/static/css/main.8fe7b1ac.css",
+    "main.js": "/Portfolio-ace/static/js/main.eaeba19e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-ace/static/js/787.1ed0c42c.chunk.js",
     "static/media/Resume_Portfolio.pdf": "/Portfolio-ace/static/media/Resume_Portfolio.95cb24e970ccc2e3c8b4.pdf",
+    "static/media/portfolio-website.JPG": "/Portfolio-ace/static/media/portfolio-website.e166087a33ae5cf7b476.JPG",
+    "static/media/meetio.JPG": "/Portfolio-ace/static/media/meetio.f5adf80a1e9b7961260c.JPG",
     "static/media/me.jpg": "/Portfolio-ace/static/media/me.5d83bd0f340ff6b4d0a5.jpg",
+    "static/media/dosequis.jpg": "/Portfolio-ace/static/media/dosequis.dec0127d65cd0af6497a.jpg",
     "static/media/black-background.avif": "/Portfolio-ace/static/media/black-background.5e7128dee73523d0b15d.avif",
     "index.html": "/Portfolio-ace/index.html",
-    "main.0aed25c5.css.map": "/Portfolio-ace/static/css/main.0aed25c5.css.map",
-    "main.32398240.js.map": "/Portfolio-ace/static/js/main.32398240.js.map",
+    "main.8fe7b1ac.css.map": "/Portfolio-ace/static/css/main.8fe7b1ac.css.map",
+    "main.eaeba19e.js.map": "/Portfolio-ace/static/js/main.eaeba19e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-ace/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aed25c5.css",
-    "static/js/main.32398240.js"
+    "static/css/main.8fe7b1ac.css",
+    "static/js/main.eaeba19e.js"
   ]
 }
