@@ -1,11 +1,13 @@
 import React from 'react';
 import Icons from './PortfolioIcons'
+import background from './images/black-background.avif';
+import './body.css'
 
 const Portfolio = () => {
-    return (
-        <div className='main'>
-        <h1>Frank John Nelson</h1>
-        <h2 className="tech-job sm-heading-sec">
+  return (
+    <div className='main' style={{ backgroundImage: `url(${background})` }}>
+      <h1>Frank John Nelson</h1>
+      <h2 className="tech-job sm-heading-sec">
         <span className="job">Web Development</span>
         <span className="dot"> &bull; </span>
         <span className="job">Software Development</span>
@@ -22,8 +24,9 @@ const Portfolio = () => {
         <span className="dot"> &bull; </span>
         <span className="stack">Node</span>
       </h3>
-      <Icons/>
-        </div>
-    )
-}
+      <Icons />
+    </div>
+  );
+};
+
 export default Portfolio;
