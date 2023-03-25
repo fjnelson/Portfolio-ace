@@ -1,30 +1,39 @@
 import React from 'react';
-import Icons from './PortfolioIcons'
-import background from './images/black-background.avif';
-import './body.css'
+import Icons from './PortfolioIcons';
+import './body.css';
+import me from './images/me.jpg';
 
 const Portfolio = () => {
   return (
-    <div className='main' style={{ backgroundImage: `url(${background})` }}>
-      <h1>Frank John Nelson</h1>
-      <h2 className="tech-job sm-heading-sec">
-        <span className="job">Web Development</span>
-        <span className="dot"> &bull; </span>
-        <span className="job">Software Development</span>
-        <span className="dot"> &bull; </span>
-        <span className="job">Application Support</span>
-      </h2>
-      <h2>MERN</h2>
-      <h3 className="tech-stacks sm-heading-sec">
-        <span className="stack">MongoDB</span>
-        <span className="dot"> &bull; </span>
-        <span className="stack">Express</span>
-        <span className="dot"> &bull; </span>
-        <span className="stack">REACT</span>
-        <span className="dot"> &bull; </span>
-        <span className="stack">Node</span>
-      </h3>
-      <Icons />
+    <div className='main'>
+      <div className='left-section'>
+        <h1 className='realName'>Frank John Nelson</h1>
+        <h2 className='tech-job sm-heading-sec'>
+          <span className='job'>Web Development</span>
+          <span className='dot'> &bull; </span>
+          <span className='job'>Software Development</span>
+          <span className='dot'> &bull; </span>
+          <span className='job'>Application Support</span>
+        </h2>
+        <h2 className='stackName'>MERN Development</h2>
+        <h3 className='tech-stacks sm-heading-sec'>
+          <span className='stack'>MongoDB</span>
+          <span className='dot'> &bull; </span>
+          <span className='stack'>Express</span>
+          <span className='dot'> &bull; </span>
+          <span className='stack'>REACT</span>
+          <span className='dot'> &bull; </span>
+          <span className='stack'>Node</span>
+        </h3>
+        <h3 className='tech-stacks sm-heading-sec' style={{marginLeft: '20px'}}>
+          <span className='stack'>Emphasis in Customer Success</span>
+        </h3>
+        <Icons />
+      </div>
+      <div className='right-section'>
+        <img src={me} alt='Frank John Nelson' className='my-photo' />
+        <p className='quote'>"My goal is to be the person my dog thinks I am"</p>
+      </div>
     </div>
   );
 };
