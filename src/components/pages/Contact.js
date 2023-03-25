@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
 import resumePDF from '../images/Resume_Portfolio.pdf';
+
+// Configure the pdfjs worker
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function Contact() {
   const [numPages, setNumPages] = useState(null);
@@ -12,7 +15,7 @@ export default function Contact() {
   return (
     <div>
       <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
-        {Array.from(new Array(numPages), (_, index) => (
+        {numPages && Array.from(new Array(numPages), (_, index) => (
           <Page key={`page_${index + 1}`} pageNumber={index + 1} />
         ))}
       </Document>

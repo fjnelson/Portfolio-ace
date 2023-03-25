@@ -12,7 +12,7 @@ html, body {
     background-color: black;
   }
   
-  .job, .dot, .stack, .realName, .stackName, .footer-bottom {
+  .job, .dot, .t-stack, .realName, .stackName, .footer-bottom {
     color: lightgray;
   }
   

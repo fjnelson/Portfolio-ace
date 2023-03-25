@@ -17,16 +17,16 @@ const Portfolio = () => {
         </h2>
         <h2 className='stackName'>MERN Development</h2>
         <h3 className='tech-stacks sm-heading-sec'>
-          <span className='stack'>MongoDB</span>
+          <span className='t-stack'>MongoDB</span>
           <span className='dot'> &bull; </span>
-          <span className='stack'>Express</span>
+          <span className='t-stack'>Express</span>
           <span className='dot'> &bull; </span>
-          <span className='stack'>REACT</span>
+          <span className='t-stack'>REACT</span>
           <span className='dot'> &bull; </span>
-          <span className='stack'>Node</span>
+          <span className='t-stack'>Node</span>
         </h3>
         <h3 className='tech-stacks sm-heading-sec' style={{marginLeft: '20px'}}>
-          <span className='stack'>Emphasis in Customer Success</span>
+          <span className='t-stack'>Emphasis in Customer Success</span>
         </h3>
         <Icons />
       </div>
