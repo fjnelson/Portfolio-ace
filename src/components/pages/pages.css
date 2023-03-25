@@ -26,11 +26,15 @@
   }
   
   .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
+    margin: 20px;
   }
 
   .card:hover {
@@ -39,15 +43,17 @@
   }
   
   .card-image {
-    display: block;
-    height: 200px;
-    object-fit: cover;
     width: 100%;
-    margin: 0 auto;
+    height: 60%; /* set the height to 60% */
+    object-fit: cover;
   }
   
   .card-content {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%; /* set the height to 40% */
+    padding: 20px;
   }
   
   .card-title {
@@ -64,6 +70,33 @@
     display: block;
     margin-top: 10px;
     text-align: center;
+  }
+
+  .stack {
+    margin-right: 10px;
+    color: blue;
+  }
+
+  .stack-description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-link {
+    margin-right: 10px;
+  }
+  
+  .hosted-link, .project-link {
+    background-color: black;
+    padding: 8px;
+    color: white;
+    margin-top: 10px;
   }
 
   @media only screen and (max-width: 768px) {
