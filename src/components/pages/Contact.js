@@ -1,24 +1,19 @@
-import React, { useState } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
-import resumePDF from '../images/Resume_Portfolio.pdf';
-
-// Configure the pdfjs worker
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import React from 'react';
+import './pages.css';
 
 export default function Contact() {
-  const [numPages, setNumPages] = useState(null);
-
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-  };
-
   return (
-    <div>
-      <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
-        {numPages && Array.from(new Array(numPages), (_, index) => (
-          <Page key={`page_${index + 1}`} pageNumber={index + 1} />
-        ))}
-      </Document>
+    <div className="pdf-container">
+<iframe
+  src="https://docs.google.com/document/d/1Bh9TheAKGFkjjBvsqLDHhISgdZHR8ZVN0KOhRHo5dzA/preview#heading=h.73zgbr3vwhan"
+  title="Resume"
+  width="100%"
+  height="800"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+>
+</iframe>
     </div>
   );
 }
