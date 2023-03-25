@@ -1,24 +1,49 @@
 import React from 'react';
+import meetioImage from '../images/meetio.JPG';
+import dosequisImage from '../images/dosequis.jpg';
+import portfolioImage from '../images/portfolio-website.JPG';
 
 export default function Blog() {
+  const projects = [
+    {
+      title: 'Portfolio',
+      description: 'This website! My portfolio keeps growing as I gain more experience from live projects.',
+      imageUrl: portfolioImage,
+      projectUrl: 'https://github.com/fjnelson/Portfolio-ace',
+      hostedURL: 'https://fjnelson.github.io/Portfolio-ace/'
+    },
+    {
+      title: 'Dosequis-API',
+      description: 'Dosequis-API uses Ticketmaster API and pulls weather data for the event from Open-Mateo API.',
+      imageUrl: dosequisImage,
+      projectUrl: 'https://github.com/fjnelson/01-project-dosequis-api',
+      hostedURL: 'https://fjnelson.github.io/01-project-dosequis-api/'
+    },
+    {
+      title: 'Meet-IO',
+      description: 'Meet-IO is an application that allows users to chat and schedule events with friends.',
+      imageUrl: meetioImage,
+      projectUrl: 'https://github.com/fjnelson/Meet-IO',
+      hostedURL: 'https://meetio.herokuapp.com/'
+    },
+  ];
+
   return (
     <div>
       <h1 className="about-header">Projects</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div className="card-container">
+        {projects.map((project, index) => (
+          <div key={index} className="card">
+            <img src={project.imageUrl} alt={project.title} className="card-image" />
+            <div className="card-content">
+              <h2 className="card-title">{project.title}</h2>
+              <p className="card-description">{project.description}</p>
+              <a href={project.projectUrl} className="card-link">View on Github</a>
+              <a href={project.hostedURL} className="card-link">Hosted Project</a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

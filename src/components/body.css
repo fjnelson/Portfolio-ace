@@ -12,7 +12,7 @@ html, body {
     background-color: black;
   }
   
-  .job, .dot, .stack, .realName, .stackName {
+  .job, .dot, .stack, .realName, .stackName, .footer-bottom {
     color: lightgray;
   }
   
@@ -54,6 +54,15 @@ html, body {
     font-size: 1.2rem;
   }
   
+  .footer-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+  }
   
   /* styles for screens larger than 768px */
   @media screen and (min-width: 768px) {
