@@ -8,7 +8,7 @@ export default function Contact() {
   src="https://docs.google.com/document/d/1Bh9TheAKGFkjjBvsqLDHhISgdZHR8ZVN0KOhRHo5dzA/preview#heading=h.73zgbr3vwhan"
   title="Resume"
   width="100%"
-  height="800"
+  height="1000px"
   frameborder="0"
   marginheight="0"
   marginwidth="0"
