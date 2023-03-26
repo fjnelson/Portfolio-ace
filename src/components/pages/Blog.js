@@ -31,7 +31,7 @@ export default function Blog() {
       description:
         "Meet-IO is an application that allows users to chat and schedule events with friends.",
       imageUrl: meetioImage,
-      stack: "handlebars express jquery socketIO express sequelize bcrypt bulma",
+      stack: "handlebars express jquery socketIO MySQL sequelize bcrypt bulma",
       projectUrl: "https://github.com/fjnelson/Meet-IO",
       hostedURL: "https://meetio.herokuapp.com/",
     },
