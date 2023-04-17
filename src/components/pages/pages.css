@@ -1,7 +1,8 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    text-align: center;
   }
   
   .about-header {
@@ -9,13 +10,16 @@
     font-size: 4rem;
     font-weight: bold;
     margin-top: 20px;
+    text-align: center;
   }
   
   .about-paragraph {
     color: lightgray;
     font-size: 2rem;
     margin-top: 20px;
-    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
   }
 
   .card-container {
@@ -29,7 +33,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 600px;
+    height: auto;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -52,8 +56,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%; /* set the height to 40% */
+    height: auto; /* set the height to 40% */
     padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .card-title {
@@ -77,6 +83,10 @@
     color: blue;
   }
 
+  .stack:last-child {
+  margin-bottom: 20px;
+}
+
   .stack-description {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +96,7 @@
   .links {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
   }
   
   .project-link {

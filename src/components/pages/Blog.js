@@ -2,6 +2,7 @@ import React from "react";
 import meetioImage from "../images/meetio.JPG";
 import dosequisImage from "../images/dosequis.jpg";
 import portfolioImage from "../images/portfolio-website.JPG";
+import helloStrangerImage from "../images/hellostranger-04.jpg";
 import { Button } from "reactstrap";
 import "./pages.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -34,6 +35,15 @@ export default function Blog() {
       stack: "handlebars express jquery socketIO MySQL sequelize bcrypt bulma",
       projectUrl: "https://github.com/fjnelson/Meet-IO",
       hostedURL: "https://meetio.herokuapp.com/",
+    },
+    {
+      title: "Hello Stranger",
+      description:
+        "MERN story-telling application with Stripe integration",
+      imageUrl: helloStrangerImage,
+      stack: "React, Express, Node, MongoDB, Stripe, Bcrypt, SemanticUI, GraphQL, JWT",
+      projectUrl: "https://github.com/fjnelson/ludicrous-speed",
+      hostedURL: "https://hello--stranger.herokuapp.com/",
     },
   ];
 

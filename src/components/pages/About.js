@@ -9,7 +9,7 @@ export default function About() {
       </div>
       <div>
         <p className="about-paragraph">
-          Customer Success driven professional with extensive experience in IT projects, customer relations, customer satisfaction, cross-functional team collaboration, and exceptional service. Proven track record of identifying and resolving customer pain points, utilizing data analysis to improve processes, and implementing effective solutions to drive retention and growth. Strong communication, problem-solving, and project management skills through use of Agile & Scrum fundamentals. Looking to reinforce my expert-level soft skills within a technical role.
+        Web developer with a passion for creating innovative solutions drawing on an extensive background of Customer Success, IT Project Management, and IT Service Delivery experience in designing, developing, and deploying web applications. Earned a certificate in Full Stack Web Development from the University of Oregon Coding Boot Camp.  Project lead of Hello Stranger application, incorporating project Scrums and sprints.  The goal is to continue growing as a tech enthusiast and contribute to the success of dynamic, fast-paced, cross-functional development teams with a “Customer Champion” mentality.
         </p>
       </div>
     </div>
