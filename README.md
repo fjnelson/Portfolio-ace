@@ -17,7 +17,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-Portfolio: https://fjnelson.github.io/Portfolio-ace/
+Portfolio: https://johnne.netlify.app/
 
 ## Description
 
@@ -27,7 +27,7 @@ Codebase correction that follows accessibility standards so that the site is opt
 
 
 ## Hosting
-Github pages: https://fjnelson.github.io/Portfolio-ace/
+Netlify hosting: https://johnne.netlify.app/
 
 
 
