@@ -29,14 +29,15 @@ html, body {
   }
   
   .left-section {
-    flex: 1;
-    margin-right: 20px;
+    /* flex: 1; */
+    margin-right: 20%;
     margin-left: auto;
+    padding-left: 10%;
   }
   
   .right-section {
-    flex: 0 0 250px;
-    margin-right: 20px;
+    /* flex: 0 0 250px; */
+    margin-right: 13%;
     margin-top: 20px;
   }
   
