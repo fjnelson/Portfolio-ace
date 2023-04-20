@@ -1,7 +1,5 @@
 import React from "react";
 import "./pages.css";
-import LOR1 from '../images/John-Nelson-Letter-of-Recommendation-from-Jack-G.jpg';
-import LOR2 from '../images/John-Nelson-Letter-of-Recommendation-from-Jennifer.jpg';
 
 export default function Recommendations() {
   const testimonials = [
@@ -56,10 +54,10 @@ export default function Recommendations() {
       <aside>
         <h2 className="LOR-header">Letters of Recommendation</h2>
         <ul className="LOR-link">
-            <a href={LOR1} >Jack Gustafson, VP, Commercial SBU</a>
+          <a href="/lor-1">Jack Gustafson, VP, Commercial SBU</a>
         </ul>
         <ul className="LOR-link">
-            <a href={LOR2} >Jennifer Malone, Sr. Director, Commercial Enterprise IT</a>
+          <a href="/lor-2">Jennifer Malone, Sr. Director, Commercial Enterprise IT</a>
         </ul>
       </aside>
       <div className="testimonial-container">

@@ -8,6 +8,8 @@ import Home from "./components/pages/Home";
 import Footer from "./components/footer";
 import NavTabs from './components/NavTabs';
 import Recommendations from './components/pages/Recommendations';
+import LOR1 from './components/pages/lor-1';
+import LOR2 from './components/pages/lor-2';
 import NotFound from './components/pages/NotFound';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/lor-1" element={<LOR1 />} />
+          <Route path="/lor-2" element={<LOR2 />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
