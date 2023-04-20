@@ -14,6 +14,13 @@
     margin-top: 20px;
     text-align: center;
   }
+
+  .LOR-header, .LOR-link{
+    color: lightgray;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
   
   .about-paragraph {
     color: lightgray;

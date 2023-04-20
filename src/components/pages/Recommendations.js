@@ -1,5 +1,7 @@
 import React from "react";
 import "./pages.css";
+import LOR1 from '../images/John-Nelson-Letter-of-Recommendation-from-Jack-G.jpg';
+import LOR2 from '../images/John-Nelson-Letter-of-Recommendation-from-Jennifer.jpg';
 
 export default function Recommendations() {
   const testimonials = [
@@ -34,12 +36,6 @@ export default function Recommendations() {
         "John and I were class mates in our full stack web development program. John took charge of his education and took advantage of every opportunity to further dissect and understand the code. He was happy to share his code in class and work with our peers as we all continued to learn the material. His dedication to excel is readily apparent not only in his code, but also in his positive attitude. If I was ever stuck on a challenge I knew John would be a great person to help guide me through my challenge.  During our time together John proved himself to be a very smart and driven developer. John constantly builds on his knowledge and surprises me with new and different ways to approach a challenge. He is a valued team member that I hope to work with again in the future.",
     },
     {
-      name: "Zac Shedd",
-      title: "Tech enthusiast who loves the outdoors and all things dogs.",
-      content:
-        "John is always ready to lend a helping hand. His projects have been clean and precise with a driven purpose. He would make an excellent addition to any team. Highly recommended.",
-    },
-    {
       name: "Sarah Hopper",
       title:
         "Pursuing a new career path and looking forward to a new chapter in my professional journey.",
@@ -57,6 +53,15 @@ export default function Recommendations() {
   return (
     <div>
       <h1 className="testimonial-header">Testimonials</h1>
+      <aside>
+        <h2 className="LOR-header">Letters of Recommendation</h2>
+        <ul className="LOR-link">
+            <a href={LOR1} >Jack Gustafson, VP, Commercial SBU</a>
+        </ul>
+        <ul className="LOR-link">
+            <a href={LOR2} >Jennifer Malone, Sr. Director, Commercial Enterprise IT</a>
+        </ul>
+      </aside>
       <div className="testimonial-container">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-card">
