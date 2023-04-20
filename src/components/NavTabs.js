@@ -23,6 +23,9 @@ function NavTabs() {
             <Nav.Link as={Link} to="/resume">
               Resume
             </Nav.Link>
+            <Nav.Link as={Link} to="/recommendations">
+              Recommendations
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
