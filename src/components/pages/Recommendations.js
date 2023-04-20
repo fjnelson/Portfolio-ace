@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./pages.css";
 
 export default function Recommendations() {
@@ -49,26 +50,26 @@ export default function Recommendations() {
   ];
 
   return (
-<div>
-  <h1 className="testimonial-header">Testimonials</h1>
-  <aside>
-    <h2 className="LOR-header">Letters of Recommendation</h2>
-    <ul className="LOR-link">
-      <li><a href="/lor-1">Jack Gustafson, VP, Commercial SBU</a></li>
-      <li><a href="/lor-2">Jennifer Malone, Sr. Director, Commercial Enterprise IT</a></li>
-    </ul>
-  </aside>
-  <div className="testimonial-container">
-    {testimonials.map((testimonial, index) => (
-      <div key={index} className="testimonial-card">
-        <div className="testimonial-content">
-          <h2 className="testimonial-name">{testimonial.name}</h2>
-          <p className="testimonial-title">{testimonial.title}</p>
-          <p className="testimonial-text">{testimonial.content}</p>
-        </div>
+    <div>
+      <h1 className="testimonial-header">Testimonials</h1>
+      <aside>
+        <h2 className="LOR-header">Letters of Recommendation</h2>
+        <ul className="LOR-link">
+          <li><Link to="/lor-1">Jack Gustafson, VP, Commercial SBU</Link></li>
+          <li><Link to="/lor-2">Jennifer Malone, Sr. Director, Commercial Enterprise IT</Link></li>
+        </ul>
+      </aside>
+      <div className="testimonial-container">
+        {testimonials.map((testimonial, index) => (
+          <div key={index} className="testimonial-card">
+            <div className="testimonial-content">
+              <h2 className="testimonial-name">{testimonial.name}</h2>
+              <p className="testimonial-title">{testimonial.title}</p>
+              <p className="testimonial-text">{testimonial.content}</p>
+            </div>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-</div>
+    </div>
   );
 }
