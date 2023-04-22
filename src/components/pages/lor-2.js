@@ -5,7 +5,10 @@ import LOR2Image from '../images/John-Nelson-Letter-of-Recommendation-from-Jenni
 const LOR1 = () => {
   return (
     <div>
-      <img src={LOR2Image} alt="John Nelson Letter of Recommendation from Jennifer Malone" />
+      <img src={LOR2Image} 
+      alt="John Nelson Letter of Recommendation from Jennifer Malone"
+      className="responsive-image"
+      />
     </div>
   );
 };
