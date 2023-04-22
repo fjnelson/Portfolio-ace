@@ -69,7 +69,7 @@ export default function Blog() {
                 ))}
               </div>
               <div className="links">
-                <Button className="btn-light" href={project.hostedURL} target="_blank">
+                <Button className="btn-dark" href={project.hostedURL} target="_blank">
                   <i className="fas fa-eye"></i> Hosted Project
                 </Button>
                 <Button className="btn-dark" href={project.projectUrl} target="_blank">
