@@ -3,12 +3,22 @@ import meetioImage from "../images/meetio.JPG";
 import dosequisImage from "../images/dosequis.jpg";
 import portfolioImage from "../images/portfolio-website.JPG";
 import helloStrangerImage from "../images/hellostranger-04.jpg";
+import ABA from "../images/ABA.jpg"
 import { Button } from "reactstrap";
 import "./pages.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Blog() {
   const projects = [
+    {
+      title: "ABA-Apps",
+      description:
+        "All-in-one application for teachers and caregivers.  Apps included are a timer, countdown, task manu, feature function class, and emotions.",
+      imageUrl: ABA,
+      stack: "react css bootstrap fontAwesome react-p5 ",
+      projectUrl: "https://github.com/fjnelson/aba-apps",
+      hostedURL: "https://aba-apps.netlify.app/",
+    },
     {
       title: "Portfolio",
       description:
@@ -39,7 +49,7 @@ export default function Blog() {
     {
       title: "Hello Stranger",
       description:
-        "MERN story-telling application with Stripe integration",
+        "MERN story-telling application with Stripe integration.",
       imageUrl: helloStrangerImage,
       stack: "React, Express, Node, MongoDB, Stripe, Bcrypt, SemanticUI, GraphQL, JWT",
       projectUrl: "https://github.com/fjnelson/ludicrous-speed",
