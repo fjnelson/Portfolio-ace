@@ -4,12 +4,22 @@ import dosequisImage from "../images/dosequis.jpg";
 import portfolioImage from "../images/portfolio-website.JPG";
 import helloStrangerImage from "../images/hellostranger-04.jpg";
 import ABA from "../images/ABA.jpg"
+import CSR from "../images/CSR.JPG"
 import { Button } from "reactstrap";
 import "./pages.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Blog() {
   const projects = [
+    {
+      title: "CSR-Jobs.com - Minor updates",
+      description:
+        "Update to Organization's existing website including adding SSL certification, updating forms, updating diversity in images, updating content, adding accessibility, fixing links, and mobile responsiveness.",
+      imageUrl: CSR,
+      stack: "uhost css javascript ",
+      projectUrl: "/CSR-update.js",
+      hostedURL: "http://csr-jobs.com/",
+    },
     {
       title: "ABA-Apps",
       description:
@@ -82,7 +92,7 @@ export default function Blog() {
                 <Button className="btn-dark" href={project.hostedURL} target="_blank">
                   <i className="fas fa-eye"></i> Hosted Project
                 </Button>
-                <Button className="btn-dark" href={project.projectUrl} target="_blank">
+                <Button className="btn-dark" href={project.projectUrl}>
                   <i className="fab fa-github"></i> View on Github
                 </Button>
               </div>
