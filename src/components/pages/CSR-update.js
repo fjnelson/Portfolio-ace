@@ -3,6 +3,7 @@ import "./pages.css";
 import oldHome from "../images/CSR/old-home.JPG";
 import recommendations from "../images/CSR/recommendations.JPG";
 import oldNavbar from "../images/CSR/old-navbar.jpg";
+import oldFooter from "../images/CSR/old-footer.JPG";
 
 export default function CSR() {
   return (
@@ -33,12 +34,26 @@ export default function CSR() {
         <p className="CSR-container-blog">
           Next, I got to work. I received documentation on how to access the
           host, called uhost. I made myself familiar with the code and styling.
-          But, I wasn't familiar with some of the scripting. The codebase was using a
-          local application to set the navbar as well as what looked like HTML4.
+          But, I wasn't familiar with some of the scripting. The codebase was
+          using a local application to set the navbar as well as what looked
+          like HTML4.
         </p>
       </div>
       <div className="old-navbar-container">
         <img src={oldNavbar} alt="old nav bar"></img>
+      </div>
+      <div>
+        <p className="CSR-container-blog">
+          I started commenting out code that I didn't think I would need, just
+          to have it there in case. Many of the links were broken. I researched
+          current affiliates sites as well as current LikedIn and Facebook
+          sites. I got updated PDF documents from the company owner and linked
+          the new documents. I noticed the footer especially needed to be
+          updated.
+        </p>
+      </div>
+      <div className="old-navbar-container">
+        <img src={oldFooter} alt="old footer"></img>
       </div>
     </div>
   );
