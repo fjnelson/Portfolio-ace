@@ -193,6 +193,12 @@
   object-fit: contain;
 }
 
+.old-home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
   .about-header {
     font-size: 3rem;
