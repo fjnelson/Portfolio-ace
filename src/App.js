@@ -11,6 +11,7 @@ import Recommendations from './components/pages/Recommendations';
 import LOR1 from './components/pages/lor-1';
 import LOR2 from './components/pages/lor-2';
 import NotFound from './components/pages/NotFound';
+import CSR from './components/pages/CSR-update';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/lor-1" element={<LOR1 />} />
           <Route path="/lor-2" element={<LOR2 />} />
+          <Route path="/csr-update" element={<CSR />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
