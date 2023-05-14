@@ -9,12 +9,16 @@
 
 .about-header,
 .testimonial-header, 
-.CSR-container {
+.CSR-container-title {
   color: lightgray;
   font-size: 4rem;
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
+}
+
+.CSR-container {
+  padding-bottom: 100px;
 }
 
 .LOR-header,
@@ -193,7 +197,9 @@
   object-fit: contain;
 }
 
-.old-home-container {
+.old-home-container,
+.recommendations-container,
+.old-navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
