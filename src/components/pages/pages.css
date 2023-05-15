@@ -199,10 +199,22 @@
 
 .old-home-container,
 .recommendations-container,
-.old-navbar-container {
+.old-navbar-container,
+.old-footer-container,
+.old-jobseekers-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.new-site-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-site-container img {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {

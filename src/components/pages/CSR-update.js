@@ -4,6 +4,11 @@ import oldHome from "../images/CSR/old-home.JPG";
 import recommendations from "../images/CSR/recommendations.JPG";
 import oldNavbar from "../images/CSR/old-navbar.jpg";
 import oldFooter from "../images/CSR/old-footer.JPG";
+import oldJobseekers from "../images/CSR/old-jobseekers.JPG";
+import newHome from "../images/CSR/1-new-CSR-home.JPG";
+import newServices from "../images/CSR/2-new-CSR-our-services.JPG";
+import newEmployers from "../images/CSR/3-new-CSR-employers.JPG";
+import newSeekers from "../images/CSR/4-new-CSR-job-seekers.JPG";
 
 export default function CSR() {
   return (
@@ -28,7 +33,7 @@ export default function CSR() {
         with the site owner to go over my findings.
       </p>
       <div className="recommendations-container">
-        <img src={recommendations} alt="old home page"></img>
+        <img src={recommendations} alt="recommendations to the owner"></img>
       </div>
       <div>
         <p className="CSR-container-blog">
@@ -52,8 +57,32 @@ export default function CSR() {
           updated.
         </p>
       </div>
-      <div className="old-navbar-container">
+      <div className="old-footer-container">
         <img src={oldFooter} alt="old footer"></img>
+      </div>
+      <p className="CSR-container-blog">
+        The footer had broken links going to two Facebook pages. It also had a
+        link to Google Maps that opens in a new tab.
+      </p>
+      <p className="CSR-container-blog">
+        The site also had a form for the user to imput information, which is
+        great! But it was so tiny on the screen.
+      </p>
+      <div className="old-jobseekers-container">
+        <img src={oldJobseekers} alt="old jobseekers"></img>
+      </div>
+      <p className="CSR-container-blog">
+        What it looks like today:
+      </p>
+      <div className="new-site-container">
+        <div>
+        <img src={newHome} alt="new home page"></img></div>
+        <div>
+        <img src={newServices} alt="new services page"></img></div>
+        <div>
+        <img src={newEmployers} alt="new employers page"></img></div>
+        <div>
+        <img src={newSeekers} alt="new job seekers page"></img></div>
       </div>
     </div>
   );
