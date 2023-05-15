@@ -14,7 +14,20 @@ export default function CSR() {
   return (
     <div className="CSR-container">
       <div className="CSR-container-title">
-        <h1>Minor Web Update for CSR-jobs.com</h1>
+        <h1
+          style={{
+            backgroundImage: "linear-gradient(to right, #00C9FF , #92FE9D)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          Minor Web Update for CSR-jobs.com
+        </h1>
+      </div>
+      <div className="anchor-new-site">
+        <a href="#new-site-container" className="new-site-link">
+          Check out the new site!
+        </a>
       </div>
       <div>
         <p className="CSR-container-blog">
@@ -71,18 +84,22 @@ export default function CSR() {
       <div className="old-jobseekers-container">
         <img src={oldJobseekers} alt="old jobseekers"></img>
       </div>
-      <p className="CSR-container-blog">
-        What it looks like today:
-      </p>
-      <div className="new-site-container">
+      <div className="CSR-container-title">
+        <h2>What the website looks like today:</h2>
+      </div>
+      <div id="new-site-container" className="new-site-container">
         <div>
-        <img src={newHome} alt="new home page"></img></div>
+          <img src={newHome} alt="new home page"></img>
+        </div>
         <div>
-        <img src={newServices} alt="new services page"></img></div>
+          <img src={newServices} alt="new services page"></img>
+        </div>
         <div>
-        <img src={newEmployers} alt="new employers page"></img></div>
+          <img src={newEmployers} alt="new employers page"></img>
+        </div>
         <div>
-        <img src={newSeekers} alt="new job seekers page"></img></div>
+          <img src={newSeekers} alt="new job seekers page"></img>
+        </div>
       </div>
     </div>
   );
