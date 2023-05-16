@@ -84,6 +84,12 @@ export default function CSR() {
       <div className="old-jobseekers-container">
         <img src={oldJobseekers} alt="old jobseekers"></img>
       </div>
+      <p className="CSR-container-blog">
+        The owner also let me know that they had complaints about the site
+        before, that the pictures were not as diverse as to represent the
+        entirety of the workforce. So, I was able to change the pictures to be
+        more diverse.
+      </p>
       <div className="CSR-container-title">
         <h2>What the website looks like today:</h2>
       </div>
