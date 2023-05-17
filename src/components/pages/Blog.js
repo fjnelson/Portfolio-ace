@@ -16,7 +16,7 @@ export default function Blog() {
       description:
         "Update to Organization's existing website including adding SSL certification, updating forms, updating diversity in images, updating content, adding accessibility, fixing links, and mobile responsiveness.",
       imageUrl: CSR,
-      stack: "uhost css javascript SSL Certificate ",
+      stack: "uhost css javascript SSL_certificate ",
       projectUrl: "/CSR-update",
       hostedURL: "https://csr-jobs.com/",
     },
