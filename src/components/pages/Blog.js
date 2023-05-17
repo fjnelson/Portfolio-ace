@@ -17,7 +17,7 @@ export default function Blog() {
         "Update to Organization's existing website including adding SSL certification, updating forms, updating diversity in images, updating content, adding accessibility, fixing links, and mobile responsiveness.",
       imageUrl: CSR,
       stack: "uhost css javascript SSL_certificate ",
-      projectUrl: "/CSR-update",
+      storyURL: "/CSR-update",
       hostedURL: "https://csr-jobs.com/",
     },
     {
@@ -89,12 +89,25 @@ export default function Blog() {
                 ))}
               </div>
               <div className="links">
-                <Button className="btn-dark" href={project.hostedURL} target="_blank">
-                  <i className="fas fa-eye"></i> Hosted Project
-                </Button>
-                <Button className="btn-dark" href={project.projectUrl}>
-                  <i className="fab fa-github"></i> View on Github
-                </Button>
+                {index === 0 ? (
+                  <>
+                    <Button className="btn-dark" href={project.hostedURL} target="_blank">
+                      <i className="fas fa-eye"></i> Hosted Project
+                    </Button>
+                    <Button className="btn-dark" href={project.storyURL}>
+                      <i className="fas fa-book"></i> View My Story
+                    </Button>
+                  </>
+                ) : (
+                  <>
+                    <Button className="btn-dark" href={project.hostedURL} target="_blank">
+                      <i className="fas fa-eye"></i> Hosted Project
+                    </Button>
+                    <Button className="btn-dark" href={project.projectUrl}>
+                      <i className="fab fa-github"></i> View on Github
+                    </Button>
+                  </>
+                )}
               </div>
             </div>
           </div>
