@@ -82,21 +82,6 @@ html, body {
       flex: 0 0 250px;
     }
   }
-  
-  /* styles for screens smaller than 576px */
-  @media screen and (max-width: 576px) {
-    .left-section, .right-section {
-      margin: 20px 0;
-    }
-    .right-section {
-      margin-top: 20;
-    }
-    .main {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
 
   .nav-tabs-lg {
     font-size: 1.5rem;
@@ -127,4 +112,47 @@ html, body {
         max-width: 800px; /* set a maximum width to prevent the image from becoming too large */
         height: auto; /* maintain the aspect ratio of the image */
       }
+  }
+
+  /* Increase the font size for screens smaller than 768px: */
+  @media screen and (max-width: 768px) {
+    .realName {
+      font-size: 3rem;
+    }
+    .tech-job {
+      font-size: 1.5rem;
+    }
+    .stackName {
+      font-size: 3rem;
+    }
+    .tech-stacks {
+      font-size: 1.2rem;
+    }
+    .quote {
+      font-size: 1.5rem;
+    }
+  }
+
+  /* Reduce the margin, padding, layout and img for smaller screens: */
+  @media screen and (max-width: 576px) {
+    .left-section, .right-section {
+      margin: 10px 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    img.my-photo {
+      width: 90%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .main {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
   }
