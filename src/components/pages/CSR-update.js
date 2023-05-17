@@ -9,6 +9,7 @@ import newHome from "../images/CSR/1-new-CSR-home.JPG";
 import newServices from "../images/CSR/2-new-CSR-our-services.JPG";
 import newEmployers from "../images/CSR/3-new-CSR-employers.JPG";
 import newSeekers from "../images/CSR/4-new-CSR-job-seekers.JPG";
+import HTTPS from "../images/CSR/HTTPS.JPG";
 
 export default function CSR() {
   return (
@@ -90,8 +91,21 @@ export default function CSR() {
         entirety of the workforce. So, I was able to change the pictures to be
         more diverse.
       </p>
+      <p className="CSR-container-blog">
+        The site was also using HTTP, which means it was unsecure. I worked with
+        uhost on adding an SSL Certificate and creating a redirect to HTTPS.
+      </p>
       <div className="CSR-container-title">
-        <h2>What the website looks like today:</h2>
+        <h2
+                  style={{
+                    backgroundImage: "linear-gradient(to right, #00C9FF , #92FE9D)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                  >What the website looks like today:</h2>
+      </div>
+      <div className="HTTPS-container">
+        <img src={HTTPS} alt="new address bar"></img>
       </div>
       <div id="new-site-container" className="new-site-container">
         <div>

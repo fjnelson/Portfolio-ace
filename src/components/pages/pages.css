@@ -212,12 +212,13 @@ html {
   align-items: center;
 }
 
-.new-site-container {
+.new-site-container, .HTTPS-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.new-site-container img {
+.new-site-container img,
+.HTTPS-container img {
   width: 100%;
   margin-bottom: 20px;
 }
