@@ -108,16 +108,16 @@ export default function CSR() {
         <img src={HTTPS} alt="new address bar"></img>
       </div>
       <div id="new-site-container" className="new-site-container">
-        <div>
+        <div className="new-site-container-images">
           <img src={newHome} alt="new home page"></img>
         </div>
-        <div>
+        <div className="new-site-container-images">
           <img src={newServices} alt="new services page"></img>
         </div>
-        <div>
+        <div className="new-site-container-images">
           <img src={newEmployers} alt="new employers page"></img>
         </div>
-        <div>
+        <div className="new-site-container-images">
           <img src={newSeekers} alt="new job seekers page"></img>
         </div>
       </div>
