@@ -5,6 +5,7 @@ import portfolioImage from "../images/portfolio-website.JPG";
 import helloStrangerImage from "../images/hellostranger-04.jpg";
 import ABA from "../images/ABA.jpg"
 import CSR from "../images/CSR.JPG"
+import dreamEscapes from "../images/dream-escapes.JPG"
 import { Button } from "reactstrap";
 import "./pages.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -30,11 +31,20 @@ export default function Blog() {
       hostedURL: "https://aba-apps.netlify.app/",
     },
     {
+      title: "Dream Escapes, Inc - Sample Website",
+      description:
+        "Introducing 'Dream Escapes, Inc - Sample Website' - Embark on your next breathtaking journey!",
+      imageUrl: dreamEscapes,
+      stack: "react react-router css react-bootstrap fontAwesome",
+      projectUrl: "https://github.com/fjnelson/React-o-Licious",
+      hostedURL: "https://dreamescapes.netlify.app/",
+    },
+    {
       title: "Portfolio",
       description:
         "This website! My portfolio keeps growing as I gain more experience from live projects.",
       imageUrl: portfolioImage,
-      stack: "react css bootstrap fontAwesome ",
+      stack: "react react-router css react-bootstrap fontAwesome",
       projectUrl: "https://github.com/fjnelson/Portfolio-ace",
       hostedURL: "https://fjnelson.github.io/Portfolio-ace/",
     },
