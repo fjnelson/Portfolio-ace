@@ -1,7 +1,6 @@
 import React from 'react';
 import Icons from './PortfolioIcons';
 import './body.css';
-import me from './images/me.jpg';
 
 const Portfolio = () => {
   return (
@@ -29,10 +28,6 @@ const Portfolio = () => {
           <span className='t-stack'>Emphasis in Customer Success</span>
         </h3>
         <Icons />
-      </div>
-      <div className='right-section'>
-        <img src={me} alt='Frank John Nelson' className='my-photo' />
-        <p className='quote'>"My goal is to be the person my dog thinks I am"</p>
       </div>
     </div>
   );
