@@ -5,8 +5,9 @@ export default function About() {
   return (
     <div className="about-container">
       <div>
-        <h1 className="about-header">About Me</h1>
+        <h1 className="about-header">Customer Success Champion</h1>
       </div>
+      <br />
       <div>
         <img
           src="https://images.credly.com/images/ff2a263e-e4ce-47fb-bb56-355465e38e56/twitter_thumb_201604_image.png"
