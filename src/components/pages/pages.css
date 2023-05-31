@@ -22,6 +22,12 @@ html {
   text-align: center;
 }
 
+.it-styled {
+  color: lightyellow;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .CSR-container {
   padding-bottom: 100px;
   width: 100vw;
