@@ -257,6 +257,16 @@ html {
   color: #fff;
 }
 
+.credly-badge,
+.microsoft-badge,
+.six-sigma-badge,
+.comptia-badge {
+  width: 200px;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   .about-header {
     font-size: 3rem;
@@ -280,6 +290,15 @@ html {
     width: 80%;
     font-size: 1rem;
   }
+  .credly-badge,
+.microsoft-badge,
+.six-sigma-badge,
+.comptia-badge {
+  width: 125px;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -315,5 +334,14 @@ html {
     text-align: center;
     width: 80%;
     font-size: 1rem;
+  }
+  .credly-badge,
+  .microsoft-badge,
+  .six-sigma-badge,
+  .comptia-badge {
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 10px;
   }
 }

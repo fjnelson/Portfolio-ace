@@ -8,6 +8,28 @@ export default function About() {
         <h1 className="about-header">About Me</h1>
       </div>
       <div>
+        <img
+          src="https://images.credly.com/images/ff2a263e-e4ce-47fb-bb56-355465e38e56/twitter_thumb_201604_image.png"
+          alt="ZoomInfo SalesOS Certification"
+          className="credly-badge"
+        />
+        <img
+          src="https://it-maniacs.com/wp-content/uploads/2021/04/mta-certificate.jpg"
+          alt="Microsoft Certification"
+          className="microsoft-badge"
+        />
+        <img
+          src="https://images.credly.com/images/27e4a448-a682-47aa-9078-2e71c20f114d/Digital_Badges_-_WB_newlogo.png"
+          alt="Six Sigma Certification"
+          className="six-sigma-badge"
+        />
+        <img
+          src="https://images.credly.com/images/63482325-a0d6-4f64-ae75-f5f33922c7d0/CompTIA_A_2Bce.png"
+          alt="comptia Certification"
+          className="comptia-badge"
+        />
+      </div>
+      <div>
         <p className="about-paragraph">
           <span class="it-styled">IT</span> enthusiast with a passion for
           creating innovative solutions drawing on an extensive background of
