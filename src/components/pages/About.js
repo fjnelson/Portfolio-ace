@@ -7,6 +7,7 @@ export default function About() {
     <div className="about-container">
       <div>
         <h1 className="about-header">Customer Success Champion</h1>
+        <h2 className="about-header2">IT Starts with Customer Success</h2>
       </div>
       <br />
       <div>

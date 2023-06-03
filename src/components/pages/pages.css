@@ -22,6 +22,12 @@ html {
   text-align: center;
 }
 
+.about-header2 {
+  color: lightgray;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .it-styled {
   color: lightyellow;
   font-size: 3rem;
@@ -273,6 +279,10 @@ html {
     font-size: 3rem;
   }
 
+  .about-header2 {
+    font-size: 2rem;
+  }
+
   .about-paragraph {
     font-size: 1.5rem;
     width: 80%;
@@ -308,6 +318,11 @@ html {
   .about-header {
     font-size: 2rem;
   }
+
+  .about-header2 {
+    font-size: 1.5rem;
+  }
+
   .about-container {
     padding: 5px;
   }
