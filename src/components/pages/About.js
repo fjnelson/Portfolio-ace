@@ -1,5 +1,6 @@
 import React from "react";
 import "./pages.css";
+import VMXP from "../images/VMXP_Badge.png"
 
 export default function About() {
   return (
@@ -9,6 +10,11 @@ export default function About() {
       </div>
       <br />
       <div>
+      <img
+          src={VMXP}
+          alt="veeam sales Certification"
+          className="veeam-badge"
+        />
         <img
           src="https://images.credly.com/images/ff2a263e-e4ce-47fb-bb56-355465e38e56/twitter_thumb_201604_image.png"
           alt="ZoomInfo SalesOS Certification"

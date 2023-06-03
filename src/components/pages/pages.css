@@ -260,7 +260,8 @@ html {
 .credly-badge,
 .microsoft-badge,
 .six-sigma-badge,
-.comptia-badge {
+.comptia-badge,
+.veeam-badge {
   width: 200px;
   height: auto;
   margin-right: 5px;
@@ -294,7 +295,8 @@ html {
   .credly-badge,
 .microsoft-badge,
 .six-sigma-badge,
-.comptia-badge {
+.comptia-badge,
+.veeam-badge {
   width: 125px;
   height: auto;
   margin-right: 5px;
@@ -338,7 +340,8 @@ html {
   .credly-badge,
   .microsoft-badge,
   .six-sigma-badge,
-  .comptia-badge {
+  .comptia-badge,
+  .veeam-badge {
     width: 100px;
     height: auto;
     margin-right: 5px;
