@@ -1,17 +1,16 @@
 import React from "react";
 import "./pages.css";
-import VMXP from "../images/VMXP_Badge.png"
+import VMXP from "../images/VMXP_Badge.png";
 
 export default function About() {
   return (
     <div className="about-container">
       <div>
         <h1 className="about-header">Customer Success Champion</h1>
-        <h2 className="about-header2">IT Starts with Customer Success</h2>
       </div>
       <br />
       <div>
-      <img
+        <img
           src={VMXP}
           alt="veeam sales Certification"
           className="veeam-badge"
@@ -37,25 +36,44 @@ export default function About() {
           className="comptia-badge"
         />
       </div>
+      <div className="about-container">
+        <h2 className="about-header2">IT Starts with Customer Success</h2>
+      </div>
       <div>
         <p className="about-paragraph">
           <span class="it-styled">IT</span> enthusiast with a passion for
-          creating innovative solutions drawing on an extensive background of
+          creating mind-blowing solutions, fueled by a diverse background in
           Customer Success, IT Project Management, IT Service Delivery, and
-          Application Support experience in designing, developing, and deploying
-          web applications. Earned a certificate in Full Stack Web Development
-          from the University of Oregon Coding Boot Camp. <br /> <br />
-          <span class="it-styled">The</span> goal is to continue growing,
-          continue learning, and contribute to the success of dynamic,
-          fast-paced, cross-functional development teams with a “Customer
-          Champion” mentality. Effective individual contributor across strong
-          sets of teams. Strong communication skills, interfacing with both
-          technical and non-technical audiences. Fluent in front-end
-          technologies and an avid learner. Able to pick up new concepts
-          quickly.
+          Application Support. With my superpowers in Full Stack Web Development
+          from the University of Oregon Coding Boot Camp, I have created
+          real-world applications that are in use by industry professionals.{" "}
           <br /> <br />
-          <span class="it-styled">I</span> am a firm believer in "IT starts with
-          Customer Success" and live/work/breathe by that model.
+          <span class="it-styled">Starts</span> off on an epic adventure to
+          grow, learn, and bring the boom to dynamic, fast-paced,
+          cross-functional development teams. Consider me a hero on the
+          battlefield of collaboration, armed with strong communication skills
+          that can bridge the gap between tech wizards and non-technical folks.
+          I'm fluent in the language of trusted advisement, and I have an
+          insatiable appetite for acquiring new powers. Quick, watch me snatch
+          those new concepts and make them my own!
+          <br /> <br />
+          <span class="it-styled">With</span> an unshakable belief in the sacred
+          mantra of "IT starts with Customer Success," I breathe fire and live
+          by that code.
+          <br /> <br />
+          <span class="it-styled">Customer</span> satisfaction is the treasure
+          that drives me. I embark on quests to understand the unique needs and
+          desires of each customer, crafting tailored solutions that blow their
+          minds and exceed their wildest expectations. By joining forces and
+          using the power of collaboration, we'll create positive and productive
+          interactions that transform ordinary moments into extraordinary
+          adventures.
+          <br /> <br />
+          <span class="it-styled">Success</span> in the realm of IT demands an
+          alchemical fusion of technical prowess and a customer-centric
+          approach. I'm on a holy mission to achieve customer triumph by
+          summoning high-quality products and services from the very depths of
+          my expertise.  With these powers combined anything is possible.
           <br /> <br />
         </p>
       </div>
