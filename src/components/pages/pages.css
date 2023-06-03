@@ -330,6 +330,7 @@ html {
   .about-paragraph {
     width: 90%;
     margin: auto;
+    font-size: 1.5rem;
   }
 
   /* .about-paragraph {
