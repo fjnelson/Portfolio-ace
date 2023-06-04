@@ -3,12 +3,12 @@ import meetioImage from "../images/meetio.JPG";
 import dosequisImage from "../images/dosequis.jpg";
 import portfolioImage from "../images/portfolio-website.JPG";
 import helloStrangerImage from "../images/hellostranger-04.jpg";
-import ABA from "../images/ABA.jpg"
-import CSR from "../images/CSR.JPG"
-import dreamEscapes from "../images/dream-escapes.JPG"
+import ABA from "../images/ABA.jpg";
+import CSR from "../images/CSR.JPG";
+import dreamEscapes from "../images/dream-escapes.JPG";
 import { Button } from "reactstrap";
 import "./pages.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Blog() {
   const projects = [
@@ -24,7 +24,7 @@ export default function Blog() {
     {
       title: "ABA-Apps",
       description:
-        "All-in-one application for teachers and caregivers.  Apps included are a timer, countdown, task manu, feature function class, and emotions.",
+        "All-in-one commissioned application for a behavior clinic.  Apps included are a timer, countdown, task manu, feature function class, emotions, and zones of regulation.",
       imageUrl: ABA,
       stack: "react css bootstrap fontAwesome react-p5 ",
       projectUrl: "https://github.com/fjnelson/aba-apps",
@@ -51,7 +51,7 @@ export default function Blog() {
     {
       title: "Dosequis-API",
       description:
-        "Dosequis-API uses Ticketmaster API and pulls weather data for the event from Open-Mateo API.",
+        "JavaScript-based application that uses Ticketmaster API and Open-Mateo API to find events and display weather data in an easy-to-use-modal.",
       imageUrl: dosequisImage,
       stack: "javascript jquery dayJS bulma",
       projectUrl: "https://github.com/fjnelson/01-project-dosequis-api",
@@ -60,7 +60,7 @@ export default function Blog() {
     {
       title: "Meet-IO",
       description:
-        "Meet-IO is an application that allows users to chat and schedule events with friends.",
+        "Real-time chat and event scheduling application with encrypted credentials and CRUD operations using MySQL and Handlebars.js.",
       imageUrl: meetioImage,
       stack: "handlebars express jquery socketIO MySQL sequelize bcrypt bulma",
       projectUrl: "https://github.com/fjnelson/Meet-IO",
@@ -69,9 +69,10 @@ export default function Blog() {
     {
       title: "Hello Stranger",
       description:
-        "MERN story-telling application with Stripe integration.",
+        "MERN human story-telling application with database mutations for retrieving, adding, updating, and deleting data while using authentication and SemanticUI for user experience",
       imageUrl: helloStrangerImage,
-      stack: "React, Express, Node, MongoDB, Stripe, Bcrypt, SemanticUI, GraphQL, JWT",
+      stack:
+        "React, Express, Node, MongoDB, Stripe, Bcrypt, SemanticUI, GraphQL, JWT",
       projectUrl: "https://github.com/fjnelson/ludicrous-speed",
       hostedURL: "https://hello--stranger.herokuapp.com/",
     },
@@ -101,7 +102,11 @@ export default function Blog() {
               <div className="links">
                 {index === 0 ? (
                   <>
-                    <Button className="btn-dark" href={project.hostedURL} target="_blank">
+                    <Button
+                      className="btn-dark"
+                      href={project.hostedURL}
+                      target="_blank"
+                    >
                       <i className="fas fa-eye"></i> Hosted Project
                     </Button>
                     <Button className="btn-dark" href={project.storyURL}>
@@ -110,7 +115,11 @@ export default function Blog() {
                   </>
                 ) : (
                   <>
-                    <Button className="btn-dark" href={project.hostedURL} target="_blank">
+                    <Button
+                      className="btn-dark"
+                      href={project.hostedURL}
+                      target="_blank"
+                    >
                       <i className="fas fa-eye"></i> Hosted Project
                     </Button>
                     <Button className="btn-dark" href={project.projectUrl}>
