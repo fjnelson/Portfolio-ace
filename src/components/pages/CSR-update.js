@@ -97,12 +97,14 @@ export default function CSR() {
       </p>
       <div className="CSR-container-title">
         <h2
-                  style={{
-                    backgroundImage: "linear-gradient(to right, #00C9FF , #92FE9D)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                  }}
-                  >What the website looks like today:</h2>
+          style={{
+            backgroundImage: "linear-gradient(to right, #00C9FF , #92FE9D)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          What the website looks like today:
+        </h2>
       </div>
       <div className="HTTPS-container">
         <img src={HTTPS} alt="new address bar"></img>
@@ -121,6 +123,12 @@ export default function CSR() {
           <img src={newSeekers} alt="new job seekers page"></img>
         </div>
       </div>
+      <p className="CSR-container-blog">
+        After the new site went live, the customer let me know they wanted one
+        thing touched up - rather than the open opportunities to be on the main
+        page, they wanted the open opportunities in the footer on all pages.
+        Easy fix.
+      </p>
     </div>
   );
 }
