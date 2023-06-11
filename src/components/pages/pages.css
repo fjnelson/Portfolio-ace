@@ -23,9 +23,10 @@ html {
 }
 
 .about-header2 {
-  color: lightgray;
+  color: lightyellow;
   margin-top: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .it-styled {
