@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="pdf-container">
 <iframe
-  src="https://docs.google.com/document/d/1Bh9TheAKGFkjjBvsqLDHhISgdZHR8ZVN0KOhRHo5dzA/preview#heading=h.73zgbr3vwhan"
+  src="https://docs.google.com/document/d/1UZUF4qZEvvlrnvsHIVjKpxgVWpHKG_BOeQLyUQEbAXQ/preview#heading=h.73zgbr3vwhan"
   title="Resume"
   width="100%"
   height="1000px"
