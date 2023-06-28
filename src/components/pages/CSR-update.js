@@ -29,6 +29,9 @@ export default function CSR() {
         <a href="#new-site-container" className="new-site-link">
           Check out the new site!
         </a>
+        <a href="/LOR-3" className="new-site-link">
+          View my letter of recommendation from the project
+        </a>
       </div>
       <div>
         <p className="CSR-container-blog">
