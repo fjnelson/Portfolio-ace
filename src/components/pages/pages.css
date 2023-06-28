@@ -257,6 +257,8 @@ html {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .new-site-link:hover {
