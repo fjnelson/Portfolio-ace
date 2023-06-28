@@ -63,6 +63,7 @@ export default function Recommendations() {
         <ul className="LOR-link">
           <li><Link to="/lor-1">Jack Gustafson, VP, Commercial SBU</Link></li>
           <li><Link to="/lor-2">Jennifer Malone, Sr. Director, Commercial Enterprise IT</Link></li>
+          <li><Link to="/lor-3">Jacquie Bartow, President</Link></li>
         </ul>
       </aside>
       <div className="testimonial-container">
